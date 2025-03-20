@@ -15,7 +15,7 @@ int main() {
         printf("0. Выход\n");
         printf("Выберите задание: ");
         scanf("%d", &choice);
-        flush_input_buffer(); // Очистка буфера после ввода
+        flush_input_buffer(); 
 
         if(choice == 0) {
             return 0;
