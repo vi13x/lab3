@@ -4,18 +4,17 @@ void clear_screen() {
     system("cls");
 }
 
-void task1() {
-    Number number = {0};
+void devisionByfour() {
+    Number number;
     unsigned int temp;
     printf("Введите число: ");
     scanf("%u", &temp);
     number.value = temp;
     unsigned int result = number.value - ((number.value >> 2) << 2);
-
     printf("Остаток от деления на 4: %u\n", result);
 }
 
-void task2() {
+void zooManager() {
     Animal *zoo = NULL;
     int zoo_size = 0;
     int choice;
@@ -77,7 +76,7 @@ void task2() {
                 char search_name[100];
                 printf("Введите название для поиска: ");
                 fgets(search_name, sizeof(search_name), stdin);
-                search_name[strcspn(search_name, "\n")] = 0; // Удаление символа перевода строки
+                search_name[strcspn(search_name, "\n")] = 0;
                 Animal *found = find_animals(zoo, zoo_size, search_name);
                 if(found) {
                     printf("Найдены животные:\n");

@@ -15,13 +15,13 @@ int main() {
         printf("0. Выход\n");
         printf("Выберите задание: ");
         scanf("%d", &choice);
-        flush_input_buffer(); 
+        flush_input_buffer(); // Очистка буфера после ввода
 
         if(choice == 0) {
             return 0;
         } else if(choice == 1) {
             clear_screen();
-            task1();
+            devisionByfour();
             printf("\n0 - вернуться на главную панель\n");
             int back;
             scanf("%d", &back);
@@ -32,7 +32,7 @@ int main() {
             }
         } else if(choice == 2) {
             clear_screen();
-            task2();
+            zooManager();
             printf("\n0 - вернуться на главную панель\n");
             int back;
             scanf("%d", &back);

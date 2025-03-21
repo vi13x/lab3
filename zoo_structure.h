@@ -1,6 +1,6 @@
 #ifndef UNTITLED5_ZOO_STRUCTURE_H
 #define UNTITLED5_ZOO_STRUCTURE_H
-} BitField;
+
 typedef struct {
     char date_str[11];
 } Date;
