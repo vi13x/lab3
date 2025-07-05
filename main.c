@@ -4,7 +4,7 @@
  * napisal 17.03.2025*/
 
 #include "function.h"
-
+awdawdadw
 int main() {
     SetConsoleOutputCP(CP_UTF8);
     int choice;
