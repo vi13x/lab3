@@ -2,6 +2,7 @@
  * Lakotko Vlad
  * 10 variant
  * napisal 17.03.2025*/
+awdawdawdw
 #include "function.h"
 
 int main() {
