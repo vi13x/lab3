@@ -3,7 +3,7 @@
 void clear_screen() {
     system("cls");
 }
-
+kj
 void devisionByfour() {
     Number number;
     unsigned int temp;
